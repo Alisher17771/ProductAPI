@@ -15,5 +15,6 @@ namespace ProductAPI.Data
         }
 
         public DbSet<ProductAPI.Model.Product> Product { get; set; } = default!;
+        public DbSet<ProductAPI.Model.Category> Category { get; set; } = default!;
     }
 }
